@@ -1,17 +1,19 @@
 # signalwire-dotnet-aspnet
 MVC helper library for .NET Core
 
-Example
-namespace MVC_Sandbox.Controllers
-{
-    public class LamlController : SignalWireController
+## Code Samples
+
+### Incoming SMS OR Voice Request
+
+```c#
+public class LamlController : SignalWireController
     {
         public LaMLResult Sms(SmsRequest request)
         {
             var response = new MessagingResponse();
             response.Message(
                 $"Hey there {request.From}! " +
-                "How 'bout those Yankees?"
+                "How 'bout those Seahawks?"
             );
             return LaML(response);
         }
@@ -23,4 +25,4 @@ namespace MVC_Sandbox.Controllers
             return LaML(response);
         }
     }
-}
+```
