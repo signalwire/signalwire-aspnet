@@ -13,7 +13,7 @@ public class LamlController : SignalWireController
             var response = new MessagingResponse();
             response.Message(
                 $"Hey there {request.From}! " +
-                "How 'bout those Seahawks?"
+                "How 'bout them Yankees?"
             );
             return LaML(response);
         }
