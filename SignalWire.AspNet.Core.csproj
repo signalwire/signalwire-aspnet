@@ -2,18 +2,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
-    <PackageId>Twilio.AspNet.Core</PackageId>
-    <PackageVersion>5.33.1</PackageVersion>
-    <Authors>Twilio</Authors>
-    <Description>Twilio helpers for ASP.NET Core 1.0 to 2.x.</Description>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
-    <Copyright>Copyright 2017 (c) Twilio, Inc. All rights reserved.</Copyright>
-    <PackageTags>twilio</PackageTags>
-    <PackageLicenseUrl>https://github.com/twilio/twilio-aspnet/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>http://github.com/twilio/twilio-aspnet</PackageProjectUrl>
-    <PackageIconUrl>https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/twilio-icon-64x64.png</PackageIconUrl>
-    <Version>5.33.1</Version>
+    
+	<PackageId>SignalWire.AspNet</PackageId>
+	<Title>SignalWire Helpers</Title>
+	<Version>1.00-rc1</Version>
+    <Authors>SignalWire Team</Authors>
+	<Company>SignalWire Inc</Company>
+    <Description>SignalWire helpers for ASP.NET Core 1.0 to 2.x.</Description>
+    <Copyright>Copyright © SignalWire Inc</Copyright>
+    <PackageTags>REST;websocket;json;jsonrpc;SMS;voice;telephony;phone;video;voip;realtime;sdk;api;signalwire</PackageTags>
+    <PackageLicenseUrl>https://github.com/signalwire/signalwire-aspnet/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/signalwire/signalwire-aspnet</PackageProjectUrl>
+
     <AssemblyName>SignalWire.AspNet.Core</AssemblyName>
     <RootNamespace>SignalWire.AspNet.Core</RootNamespace>
   </PropertyGroup>
