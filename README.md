@@ -1,4 +1,4 @@
-# signalwire-dotnet-aspnet
+# signalwire-aspnet
 MVC helper library for .NET Core
 
 ## Code Samples
