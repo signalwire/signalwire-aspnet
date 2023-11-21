@@ -18,7 +18,7 @@
     <RootNamespace>SignalWire.AspNet.Core</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="1.0.6" />
     <PackageReference Include="SignalWire-DotNet" Version="2.2.0" />
   </ItemGroup>
 </Project>
